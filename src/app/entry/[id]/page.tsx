@@ -5,10 +5,13 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Calendar, MessageSquare } from "lucide-react";
 import CommentSection from "@/components/comment-section";
 
-export default function EntryPage({ params }: { params: { id: string } }) {
+type Params = Promise<{ id: string }>;
+
+export default async function EntryPage({ params }: { params: Params }) {
+  const { id } = await params;
   // Mock data for a single journal entry
   const entry = {
-    id: Number.parseInt(params.id),
+    id: Number.parseInt(id),
     title: "Finding Gratitude in the Small Things",
     prompt: "What is one thing you're grateful for today?",
     category: "Gratitude",

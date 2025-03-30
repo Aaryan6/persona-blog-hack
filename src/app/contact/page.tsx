@@ -15,9 +15,9 @@ export default function Contact() {
           </h1>
 
           <p className="text-[#5b6084] mb-10 text-lg">
-            Have a question, comment, or just want to say hello? I'd love to
-            hear from you. Fill out the form below or reach out through one of
-            my social channels.
+            Have a question, comment, or just want to say hello? I&apos;d love
+            to hear from you. Fill out the form below or reach out through one
+            of my social channels.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">

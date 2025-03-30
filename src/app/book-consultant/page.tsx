@@ -23,7 +23,7 @@ export default function BookConsultation() {
           </h1>
           <p className="text-[#5b6084] mb-8">
             Fill out the form below to schedule a one-hour consulting meeting.
-            I'll get back to you within 24 hours to confirm the details.
+            I&apos;ll get back to you within 24 hours to confirm the details.
           </p>
 
           <div className="bg-white rounded-3xl p-6 md:p-8 border border-[#e6e6e6]">
